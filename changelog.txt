@@ -1,0 +1,135 @@
+/* Visia */
+
+
+Theme by Aether Themes 
+Created: Wednesday, August 28, 2013
+
+
+
+
+/* v1.0 */
+
+
+
+- initial release
+
+
+
+/* v1.1 */
+
+- Added new homepage layout
+- Added blog page
+- 12 service icons
+- 10 social icons
+- 10 color skins
+- added video support for portfolio
+- improved portfolio
+- improved navigation
+
+Files Affected------------------------------------------------
+
+added /home-slider.html
+added /javascript/vegas.js
+added /blog.html
+added /blog-single.html
+added multiple files in /stylesheets/colors/
+added project1.html to project8.html in /projects/
+added /javascript/fitvids.js
+added /javascript/waypoints.js
+added /images/blog/
+added /images/slider/
+added files to /images/icons/
+
+edited /index.html
+edited /javascript/main.js
+edited /stylesheets/style.css
+edited ALL files in /sytlesheets/colors/
+
+removed ALL content from /projects/
+
+/* v1.1.1 */
+- Added Shortcodes
+
+Files Affected------------------------------------------------
+
+added /shortcodes.html
+added /stylesheets/shotrcodes.css
+added /javascript/shortcodes.js
+
+edited ALL files in /sytlesheets/colors/
+
+
+
+/* v1.2 */
+
+- Added portfolio filtering
+- Added new homepage layout
+- Improved project navigation
+- Improved services mobile experience
+
+Files Affected------------------------------------------------
+
+added /javascript/jquery.mixitup.js
+added /javascript/jquery.countto.js
+added /home-extended.html
+added /form.php
+added /images/icons/tick.png
+added /images/icons/tick@2x.png
+added /images/icons/cross.png
+added /images/icons/cross@2x.png
+
+edited /index.html
+edited /home-slider.html
+edited /stylesheets/style.css
+edited /javascript/main.js
+edited ALL files in /stylesheets/colors/
+
+
+/* v1.3 */
+
+- Added full-screen video background option
+- Improved project navigation
+
+Files Affected------------------------------------------------
+
+added /javascript/jqueryui.js
+added /javascript/video.js
+added /javascript/bigvideo.js
+added /javascript/jquery.imagesloaded.js
+added /video
+added /video/visia-video.mp4
+added /video/visia-video.ogv
+added /video/visia-video-poster.jpeg
+added /images/icons/project-gallery-next.png
+added /images/icons/project-gallery-next@2x.png
+added /images/icons/project-gallery-prev.png
+added /images/icons/project-gallery-prev@2x.png
+
+edited /home-extended.html
+edited /javascript/main.js
+edited /stylesheets/style.css
+edited ALL files in /projects/
+
+/* v1.3.1 */
+
+- Fixed a parallax issue where images were not scaling correctly
+
+Files Affected------------------------------------------------
+
+edited /javascript/parallax.js
+
+/* v1.3.2 */
+
+- Fixed an issue with retina images
+
+Files Affected------------------------------------------------
+
+added /javascript/retina.js
+
+/* v1.3.3 */
+
+- Fixed an issue with the mobile navigation on the home-extended version
+
+Files Affected------------------------------------------------
+
+edited /stylesheets/style.css

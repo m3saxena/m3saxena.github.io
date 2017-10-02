@@ -1,0 +1,306 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Documentation | Aether Themes</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+		body { background: #fff; color: #232527; }
+		a, a:visited  { color: #19e6a5; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt"><img src="assets/images/logo.png"></h3>
+		
+		<hr>
+		
+		<h1 class="center">Visia.</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 08/28/2013<br>
+					By: Aether Themes<br>
+					Email: <a href="mailto:contact@aetherthemes.com">contact@aetherthemes.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing our theme. If you have any questions that are beyond the scope of this help file, please feel free to visit the dedicated support forum <a href="http://aether.ticksy.com">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#installation">Installation</a></li>
+			<li><a href="#customization">Customization</a></li>
+			<li><a href="#compatability">Compatability</a></li>
+			<li><a href="#credits">Sources and Credits</a></li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="installation"><strong>A) Installation</strong></h3>
+		<p>Installation is pretty easy. All you need to do is unzip the file, and upload the contents of the template folder to your server via FTP. You can learn more about using a FTP client <a href="https://wiki.filezilla-project.org/Using" target="_blank">over here</a>.</p>
+
+		<p>The template utilizes AJAX and just a bit of PHP, so if you wish to test it locally on your machine you will need <a href="http://www.developerdrive.com/2011/08/installing-and-configuring-a-wamp-server-on-your-computer/" target="_blank">WAMP</a> - for windows and <a href="http://sawmac.com/mamp/" target="_blank">MAMP</a> - for mac. You can learn how</p>
+		
+		<hr>
+
+		<h3 id="customization"><strong>B) Customization</strong> - <a href="#toc">top</a></h3>
+
+		<p>You can custom pretty much everything in the theme.</p>
+		
+		<h3><strong>File Structure</strong></h3>
+		
+		<h6 style="padding-bottom: 10px;">HTML</h6>
+		
+		<p>In the root folder you will find the core html file of the landing page. Here is wherer you can edit the actual contet of you site.</p>
+		
+		<h6 style="padding-bottom: 10px;">CSS</h6>
+		
+		<p>The css files located in the <tt>stylesheets</tt> directory are the ones responsible for how your theme looks - here you can control the typography, paddings and positions of elements and colors.</p>
+
+		<p>CSS Files included:</p>
+		<ul>
+			<li>reset.css - this file is responsible for resseting browser specific settings (you don't need to edit it)</li>
+			<li>ie.css - this file is responsible for IE8 specific styles (you don't need to edit it)</li>
+			<li>grid.css - this file is responsible for the responsive gride your site is built on (you don't need to edit it)</li>
+			<li>loader.css - this file is responsible for the design of the preloader</li>
+			<li>animations.css - this file is responsible for the animations on the site</li>
+			<li>style.css - this is the master styles file. Here you can edit every section of the site - notice that the file is actually structured and includes table of contents so you can quickly find the section you want to edit</li>
+			<li>colors - in the colors folder you will find the css files that give your template a pre-defined color skin (the default being ruby-red).</li>
+
+		</ul>
+		
+		<h6 style="padding-bottom: 10px;">Javascript</h6>
+		
+		<p>The css files located in the <tt>scripts</tt> directory are the ones responsible for javascript effects and functions.</p>
+
+		<p>JS Files included:</p>
+		<ul>
+			<li>jquery.appear.js - this is a plugin that is used for triggering animations (you don't need to edit it)</li>
+			<li>jquery.bxslider.js - this is a plugin that is used for the quotes slider and projects slider (you don't need to edit it)</li>
+			<li>jquery.countto.js - this is a plugin that is used for automatic counting on subscribe section (you don't need to edit it)</li>
+			<li>jquery.easing.js - this is responsible for various jQuery animations (you don't need to edit it)</li>
+			<li>jquery.fittext.js - this is responsible for responsive headings (you don't need to edit it)</li>
+			<li>jquery.fitvids.js - this is responsible for responsive videos (you don't need to edit it)</li>
+			<li>jquery.localscroll.js - this is responsible for smooth scrolling through the navigation (you don't need to edit it)</li>
+			<li>jquery.localscroll.js - this is responsible for portfolio filtering (you don't need to edit it)</li>
+			<li>jquery.scrollto.js - this is responsible for smooth scrolling through jQuery (you don't need to edit it)</li>
+			<li>jquery.waitforimages.js - this is responsible for proper loading of project images (you don't need to edit it)</li>
+			<li>parallax.js - this is responsible for the parallax effects (you don't need to edit it)</li>
+			<li>royal-preloader.js - this is responsible for preloading the page content (you don't need to edit it)</li>
+			<li>smoothscroll.js - this is responsible for smooth scrolling of the page (you don't need to edit it)</li>
+			<li>vegas.js - this is responsible for the fullscreen slider (you don't need to edit it)</li>
+			<li>waypoints.js - this is responsible for active navigation highlights (you don't need to edit it)</li>
+			<li>navigation.js - this is a custom function responsible for the responsive navigation.</li>
+			<li>shortcodes.js - this is the main file responsible for shortcode effect lke tabs and accordions.</li>
+			<li>main.js - this is the master javascript file. Here is the main initialization function of the website and portfolio, many custom options are configured here.</li>
+		</ul>
+
+		<hr>
+
+		<h3><strong>Editing</strong></h3>
+		
+		<p>The HTML is well structured with comments on every section you need to edit.<p>
+		
+		<h6 style="padding-bottom: 10px;">Fonts</h6>
+		
+		<p>The fonts used are from the Google Web font library. You can change the font by editing the url provided in the HTML where marked and reflect that change in the css. To learn more and choose the perfect font for you site just head over to <a href="http://www.google.com/fonts/" target="_blank">Google WebFonts</a>.</p>
+
+		<img src="assets/images/fonts.jpg" alt="" style="margin-bottom: 40px; border-radius: 5px;"/>
+
+		<h6 style="padding-bottom: 10px;">Navigation</h6>
+
+		<p>The navigation automatically transitions between mobile and desktop so to set it up just give your links the name of the section they represent and give them a href attribute with the id of the given section. For instance in the template the 'About Us' section has an id of "section2" - hence the link for this section is <tt>"#section2"</tt>. Another feature of the navigation is the active highlight on scrolling. To achieve it all you need to do is assing matching href attributes to the matching section, and when the given section gets visible the navigation item changes it's color.</p>
+
+		<img src="assets/images/navigation.jpg" alt="" style="margin-bottom: 20px; border-radius: 5px;"/>
+		<img src="assets/images/navigation2.jpg" alt="" style="margin-bottom: 40px; border-radius: 5px;"/>
+
+		<h6 style="padding-bottom: 10px;">Portfolio</h6>
+
+		<p>Setting up the portfolio is done in two parts. First the thumbnail images and then the projects themselves.</p>
+
+		<p>Setting up the thumbnails just requires you to setup your images and give the portfolio item the href attribute to the corresponding project html file with <tt>'#!'</tt> before the path.</p>
+
+		<img src="assets/images/portfolio.jpg" alt="" style="margin-bottom: 5px; border-radius: 5px;"/>
+
+		<p><small>*this is done because of AJAX</small></p>
+
+		<h6 style="padding-bottom: 10px;">Projects</h6>
+
+		<p>This is the second part of the setup. Once you have decided how many projects you want to create, open up the projects folder and create your files there. The project files themselves are fully functional on their own and the main content section (excluding the header and footer) are loaded in the home page by AJAX. What you have to do here is make sure you have the right paths to your files since the project file is not in the root directory like the <tt>'index.html'</tt> file.</p>
+
+		<img src="assets/images/project1.jpg" alt="" style="margin-bottom: 20px; border-radius: 5px;"/>
+
+		<p>To make the portfolio slider images work you need to give them direct paths to your server in order to work. Setting up the project itself is pretty straightforward - just remember that when you call in images you have to do it in the way shown in the template, so that when the user opens the project directly the experience won't be ruined.</p>
+
+		<img src="assets/images/project2.jpg" alt="" style="margin-bottom: 20px; border-radius: 5px;"/>
+
+		<p>Setting up the project itself is pretty straightforward - just remember that when you call in images you have to do it in the way shown in the template, so that when the user opens the project directly the experience won't be ruined.</p>
+
+		<p>The projects utilize a slider function, so all the images you put in that list will be part of the slider. If you wish to have only one image for instance just remove the slider markup. The other part of the project is straightforward html markup so just fill in the info and you are done. Video embedding works straight our of the box. Look up project 8 for an example.</p>
+
+		<img src="assets/images/project3.jpg" alt="" style="margin-bottom: 40px; border-radius: 5px;"/>
+
+		<h6 style="padding-bottom: 10px;">Contact Form Setup</h6>
+
+		<p>Setting up the contact form requires only one line of text to be changed in the <tt>post.php</tt> file. You need to replace the test email with your own.</p>
+
+		<img src="assets/images/form.jpg" alt="" style="margin-bottom: 40px; border-radius: 5px;"/>
+
+		<h6 style="padding-bottom: 10px;">Parallax Setup</h6>
+
+		<p>The template utilizes the background parallax effect. To setup the parallax images just give your section a class <tt>'parallax'</tt> and a unique class so you can setup the background image in CSS and call the parallax efect in the <tt>main.js</tt> file with that class.</p>
+
+		<img src="assets/images/parallax.jpg" alt="" style="margin-bottom: 20px; border-radius: 5px;"/>
+		<img src="assets/images/parallax2.jpg" alt="" style="margin-bottom: 20px; border-radius: 5px;"/>
+		<img src="assets/images/parallax3.jpg" alt="" style="margin-bottom: 40px; border-radius: 5px;"/>
+
+		<h6 style="padding-bottom: 10px;">Preloader Setup</h6>
+
+		<p>The preloader is called at the bottom of the <tt>'index.html'</tt> file. To make it work just replace the links with the direct links/paths to the images you want to preload before the site shows up.</p>
+
+		<img src="assets/images/loader.jpg" alt="" style="margin-bottom: 40px; border-radius: 5px;"/>
+
+		<h6 style="padding-bottom: 10px;">Retina Images</h6>
+
+		<p>The template uses retina images, so if you want to support that functionality you should familiarize yourself with the process. There are two scenarios in which retina images are called - through the HTML markup directly or through CSS.</p>
+
+		<p>If you put an image directly in the HTML markup it will load normally on a normal res screen, however on a retina device it will automatically be replaced. To make this work you need to specify the width and the height of the image directly in the markup and provide the same image twice the size withe the @2x selector added at the end of the image name. For instance if you want your <tt>'logo.png'</tt> file to be retina compatible just include it in the markup with specified width and height ( the width and height of the original image in pixels ) and create a <tt>'logo@2x.png'</tt> file in the same directory that is twice the resolution.</p>
+
+		<img src="assets/images/retina.jpg" alt="" style="margin-bottom: 20px; border-radius: 5px;"/>
+
+		<p>If you want to call a retina image through CSS, you will find a css media selector for retina devices at the bottom of the <tt>'style.css'</tt> file. This is basically a selector saying to the browser that if the device is retina the following css rule should apply. So for instance you have a div with a background image and you want the backround image to be retina-ready you need to specify the background image in the retina css rules again, but this time use an image twice the size and give it a background-size property that is the same as the background size of the original (non-retina) image.</p>
+
+		<img src="assets/images/retina2.jpg" alt="" style="margin-bottom: 40px; border-radius: 5px;"/>
+
+		<h6 style="padding-bottom: 10px;">Animations</h6>
+
+		<p>The various animations that you see in the demo content are super-easy to setup. They are supported only in modern browsers and the only thing you need to do is add two classes to the elemnt you wish to animate. (it will animate when it appeares in the browser viewport) The first class to add is <tt>'animated'</tt> so the script knows that this elemnt should be animated and the second is the class of the animation itslef. There are four animation supported at the moment (with more to come) - Fade In, Slide Up, Hatch and Entrance. Their classes are : <tt>'.fade'</tt>, <tt>'.slide'</tt>, <tt>'.hatch'</tt> and <tt>'.entrance'</tt>.</p>
+
+		<img src="assets/images/animate.jpg" alt="" style="margin-bottom: 40px; border-radius: 5px;"/>
+
+		<h6 style="padding-bottom: 10px;">Slider</h6>
+
+		<p>Setting up the slider is super easy. All you have to do is decide on how many images you want to show and put them in the slider folder. Then at the bottom of the <tt>'home-slider.html'</tt> file you will see the code responsible for the slider setup. You will have to give the paths to your slider images and choose an overlay image (there are 13 total give them a try). The overlay is optional but is there in case your image is light and you want to improve readability.</p>
+
+		<img src="assets/images/slider.jpg" alt="" style="margin-bottom: 40px; border-radius: 5px;"/>
+
+		<h6 style="padding-bottom: 10px;">Icons</h6>
+
+		<p>There are a two places that offer a variety of icons. The first place is the services icons. Here all you need to do is change the class of the icon element in order to change it. There are 12 choices and you can see their classes in <tt>'index.html'</tt> and <tt>'home-slider.html'</tt> utilized. Just scroll down to the services section.</p>
+
+		<img src="assets/images/icons1.jpg" alt="" style="margin-bottom: 20px; border-radius: 5px;"/>
+
+		<p>The other place is the footer. There is a variety of icons available and all you need to do in order to use them is remove the comment tags <tt>&lt!-- --&gt</tt> before and after the icon code.</p>
+
+		<img src="assets/images/icons2.jpg" alt="" style="margin-bottom: 40px; border-radius: 5px;"/>
+
+		<h6 style="padding-bottom: 10px;">Portfolio Filters</h6>
+
+		<p>Setting up the portfoilo filters relies on two parts - creating the filter options and then attaching a given project to this filter option.</p>
+
+		<p>To create the filter option just add a new list item in the filters unordered list, give the new item a class - 'filter' and a 'data-filter' attribute to the filtering category you want it show upon clicking.</p>
+
+		<img src="assets/images/filter1.jpg" alt="" style="margin-bottom: 20px; border-radius: 5px;"/>
+
+		<p>After that you need to assign a project to that filter. To do that all you have to do is give your project a class name that is an equivalent to the 'data-filter' attribute you have already created.</p>
+
+		<img src="assets/images/filter2.jpg" alt="" style="margin-bottom: 5px; border-radius: 5px;"/>
+
+		<p><small>adding a class of 'mix_all' will show the project when you click the 'all' filter button</small></p>
+
+		<h6 style="padding-bottom: 10px;">Subscription Form</h6>
+
+		<p>Setting up the subscription form is pretty easy. All you need to do is open up <tt>form.php</tt> and follow the instruction in there. Just type in your email in the marked place.</p>
+
+		<img src="assets/images/subscribtion.jpg" alt="" style="margin-bottom: 40px; border-radius: 5px;"/>
+
+		<h6 style="padding-bottom: 10px;">Facts Counter</h6>
+
+		<p>In the extended home version of Visia you will notice a facts counter. To setup the numbers just open up <tt>'home-extended.html'</tt> and in the milestones section replace the 'data-from' and 'data-to' attribute values to the number you want to show. The 'data-from' attribute controls from which number to begin counting and the latter is used to determin at which number to stop the counter.</p>
+
+		<img src="assets/images/counter.jpg" alt="" style="margin-bottom: 40px; border-radius: 5px;"/>
+
+		<h6 style="padding-bottom: 10px;">Fullscreen Video</h6>
+
+		<p>The fullscreen video setup is pretty easy. All you need to do is replace the existing video files in the <tt>video</tt> folder (both the 'mp4' and 'ogv') with your own. The second step is to create a hi-res image of your video that is to be served to mobile devices instead of the video and replace the existing one it in the <tt>video</tt> too.</p>
+
+		<p>Two video files are required due to the fact that Firefox won't play h264 video, so you will need to convert your clip to the ogv format as well. The easiest way would you can find <a href="http://firefogg.org/" target="_blank">here</a>.</p>
+
+		<hr>
+		
+		<h3 id="compatability"><strong>C) Compatability</strong> - <a href="#toc">top</a></h3>
+		
+		<p>This theme was tested in a vast majority of browsers.</p>
+		
+		<p>If you found a bug, please use the support forum or report it to us describing:</p>
+		
+		<ol>
+			<li>Operating System</li>
+			<li>Browser version</li>
+			<li>What is needed to replicate it</li>
+		</ol>
+		
+		<h4><strong>Compatible with:</strong></h4>
+		
+		<ul>
+			<li>Internet Explorer 8+</li>
+			<li>Firefox 3.6+</li>
+			<li>Safari 4+</li>
+			<li>Chrome</li>
+			<li>Opera</li>
+		</ul>
+
+		<p>This theme is fully responsive and compatible with all major devices:</p>
+		
+		<ul>
+			<li>Large and small display</li>
+			<li>Smart phones</li>
+			<li>Tablets</li>
+		</ul>
+		
+		<img src="assets/images/responsive.png" alt="" />
+
+		<hr class="space">
+		<hr>
+		
+		<h3 id="credits"><strong>D) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+		
+		<ul>
+			<li><a href="http://www.codecanyon.net/">Royal-Preloader</a></li>
+			<li><a href="http://www.ianlunn.co.uk/plugins/jquery-parallax/">Parallax</a></li>
+			<li><a href="https://github.com/morr/jquery.appear/">Appear</a></li>
+			<li><a href="http://gsgd.co.uk/sandbox/jquery/easing/">Easing</a></li>
+			<li><a href="http://bxslider.com/">bxSlider</a></li>
+			<li><a href="http://vegas.jaysalvat.com/">Vegas</a></li>
+			<li><a href="http://isabelarodrigues.org/">Isabela Rodrigues</a> (image resources)</li>
+		</ul>
+		
+		<hr>
+
+		<p>Once again, thank you so much for purchasing this theme. As noted at the beginning, we'd be glad to help you if you have any questions relating to this theme. No guarantees, but we'll do our best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
+		
+		<img src="assets/images/logo-small.png">
+		<hr class="space">
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>
