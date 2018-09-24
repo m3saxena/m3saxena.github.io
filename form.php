@@ -7,7 +7,7 @@
 // Instead of newsletter@test.com put the email address of the mailing list,
 // ... please pay attention to the  ' ' apostrophes, they must remain around the email address.
 
-$emailmanager = 'madhulika28@hotmail.com';
+$emailmanager = 'madhulikadesigns@gmail.com';
 
 // SECOND:
 // save this file, and close it. Thank you!
